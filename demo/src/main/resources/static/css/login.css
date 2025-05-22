@@ -1,0 +1,70 @@
+  body {
+          background-color: #f4f4f4;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .login-container {
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .login-box {
+          background-color: white;
+          border-radius: 20px;
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          display: flex;
+          width: 90%;
+          max-width: 1000px;
+        }
+
+        .login-left {
+          flex: 1;
+          padding: 60px;
+        }
+
+        .login-right {
+          flex: 1;
+          background: transparent url("./images/protection.png") no-repeat center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .login-right img {
+          width: 90%;
+          max-width: 400px;
+        }
+
+        .form-control {
+          border-radius: 8px;
+          padding: 10px 15px;
+          font-size: 16px;
+        }
+
+        .form-check-input {
+          margin-right: 10px;
+        }
+
+        .form-text {
+          font-size: 14px;
+          color: #888;
+        }
+
+        .sign-in-btn {
+          background-color: #7b61ff;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 10px;
+        }
+
+        .sign-in-btn:hover {
+          background-color: #684be3;
+        }
+
+        .sign-up-link {
+          font-size: 14px;
+        }
